@@ -14,6 +14,8 @@ $ vagrant up
 
 ## Create gitolite repository
 
+At the first, remove line begining with `[127.0.0.1]:2222` in `~/.ssh/known_hosts`.
+
 ```
 $ git clone ssh://gitolite@127.0.0.1:2222/gitolite-admin.git 
 $ cd gitolite-admin
@@ -40,7 +42,6 @@ $ git commit -m "Add example" && git push
 ## Use the repository
 
 ```
-$ git commit -m "Add example"
 $ git clone ssh://gitolite@127.0.0.1:2222/example.git
 $ cd example
 $ echo ﾊｧﾊｧ > poem.txt
@@ -49,6 +50,8 @@ $ git push
 ```
 
 Open http://127.0.0.1:4567/git in your browser.
+
+![](http://go-gyazo.appspot.com/71c643d3e5834879.png)
 
 ## 
 

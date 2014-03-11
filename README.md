@@ -12,7 +12,7 @@ $ cp /path/to/your/ssh/public/key/id_rsa.pub .vagrant/admin.pub
 $ vagrant up
 ```
 
-*NOTE*: filename of `admin.pub` should be `<username>.pub`.
+*NOTE*: filename of `admin.pub` should be `<username>.pub` for administrator.
 
 ## Create gitolite repository
 

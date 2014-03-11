@@ -14,7 +14,7 @@ $ vagrant up
 
 ## Create gitolite repository
 
-At the first, remove line begining with `[127.0.0.1]:2222` in `~/.ssh/known_hosts`.
+*NOTE*: At the first, remove line begining with `[127.0.0.1]:2222` in `~/.ssh/known_hosts`.
 
 ```
 $ git clone ssh://gitolite@127.0.0.1:2222/gitolite-admin.git 

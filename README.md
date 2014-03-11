@@ -37,7 +37,7 @@ repo    example
 $ git commit -m "Add example" && git push
 ```
 
-Clone example
+## Use the repository
 
 ```
 $ git commit -m "Add example"
@@ -47,6 +47,10 @@ $ echo ﾊｧﾊｧ > poem.txt
 $ git add poem.txt && git commit -m 'First ﾊｧﾊｧ'
 $ git push
 ```
+
+Open http://127.0.0.1:4567/git in your browser.
+
+## 
 
 ## Author
 

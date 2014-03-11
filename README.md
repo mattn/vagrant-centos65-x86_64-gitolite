@@ -22,7 +22,7 @@ $ cd gitolite-admin
 $ vi conf/gitolite.conf
 ```
 
-Add your repository
+Append two lines for new repository. See gitolite's [README](https://github.com/sitaramc/gitolite#readme) for description.
 
 ```
 repo    gitolite-admin
